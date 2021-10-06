@@ -1,0 +1,138 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
+.active, .accordion:hover {
+  background-color: #ccc;
+}*/
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+button.accordion:after {
+    content: '\002B';
+    color: #ACC13E;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    border: 1px solid #ACC13E;
+    padding: 0px 4px;
+    border-radius: 15px;
+    font-size:10px !important;
+    margin-top:10px;
+}
+button.accordion.active:after {
+    content: "\2212";
+}
+.form-control {
+    color: #3F3F3F !important;
+    background-color: rgba(143, 146, 161, 0.05) !important;
+    border: 1px solid rgba(143, 146, 161, 0.05) !important;
+    font-size:18px !important;
+}
+.form-control:focus {
+    box-shadow:none !important;
+     border:none !important;
+}
+.sub-head p{
+    font-size:18px;
+    color:#3F3F3F;
+}
+.form-check-input {
+    border-radius: 2px !important;
+}
+.form-check-label {
+    font-size:18px !important;
+    color:#3F3F3F !important;
+}
+.round {
+    border: 1px solid #3F3F3F;
+    border-radius: 18px;
+    padding: 0px 10px;
+    margin-right: 15px;
+}
+.update {
+    background: #A6C307;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+.navbar-header{
+    max-width: 1100px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:1400px){
+   .navbar-header{
+    max-width: 1270px;
+   }
+}
+.navbar-text .btn-text-green{
+    border: 1px solid rgb(166,195,7);
+    color: rgb(166,195,7);
+    background-color:#fff;
+    border-radius:20px;
+    font-weight:500;
+}
+.navbar-text .btn-green{
+    border:1px solid #A6C307;
+    color:#fff;
+    background-color:#A6C307;
+    border-radius:20px;
+}
+.header-image img{
+    width:70%;
+    height:50%;
+}
+.btn.btn-lg{
+    border-radius:20px;
+}
+@media (max-width:382px){
+    .navbar-text .order-mobile{
+        margin-top:15px;
+    }
+}
+.main-content {
+    padding: 50px 0;
+    background: #F6F6F8;
+}
+.top-head p{
+    color:#3F3F3F;
+    font-size:22px;
+}
+.accordion{
+    background: #FFFFFF;
+    border: 1px solid #E9E9EB;
+    font-size:22px;
+    color:#3F3F3F;
+}
+@media (max-width:343px){
+    .accordion{
+        font-size:18px;
+    }
+    .top-head p {
+       font-size: 18px;
+    }
+    button.accordion:after {
+        margin-top:5px;
+    }
+    .round {
+        padding: 0px 8px;
+    }
+}

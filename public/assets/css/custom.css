@@ -1,0 +1,222 @@
+#myInput {
+  /*background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+  border: none;
+  margin-bottom: 12px;
+  background: #f1f1f1;
+  position:relative;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  font-size:16px;
+}
+#myTable th{
+    border-right:1px solid #ddd;
+    font-size:14px;
+}
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+  background-color:#fff;
+}
+#myTable tr.header{
+  background-color: #f1f1f1;
+}
+.dropdown{
+    float:right;
+}
+/*.dropdown #dropdownMenuButton1{
+    padding: 10px 20px;
+}*/
+.btn-secondary {
+    color: #171717 !important;
+    border-color: #f1f1f1 !important;
+    background: #f1f1f1 !important;
+}
+.table-color .btn-outline-success,.table-color .btn-outline-primary{
+    border-radius:25px;
+}
+.main-content {
+    padding: 50px 0;
+    background: #F6F6F8;
+}
+.card-header{
+    /*background-color:#161D24;*/
+    color:#FFFFFF;
+}
+.retail-merchant .bg-success {
+    background-color: #99E7CF!important;
+}
+.retail-merchant .badge-success {
+    background-color: #438F29!important;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+p{
+    margin-bottom:0px;
+}
+.card-content{
+    border-bottom:1px solid #E9E9EB;
+    padding:20px;
+}
+.see-tranc a{
+    color:#A6C307!important;
+    margin-left:10px;
+}
+.bg-secondary {
+    background-color: rgba(143,146,161,0.1)!important;
+    padding: 8px 40px 8px 10px;
+    color:#161D24;
+}
+.update{
+    background: #A6C307;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+@media (min-width:320px){
+.amount{
+    display:flex;
+}
+}
+@media (max-width:575px){
+.amount .pending{
+    margin-left:20px;
+}
+}
+@media (max-width:767px){
+.amount{
+    margin-bottom:10px;
+}
+}
+.form-check-input:checked {
+    background-color: #438F29;
+    border-color: #438F29;
+}
+.setting .form-check-input:checked {
+    background-size:75%;
+    width:25px;
+    background-position: 150% 55% !important;
+}
+.btn.btn-lg{
+    border-radius:25px !important;
+}
+textarea.form-control{
+    background:rgba(87,87,87,0.1);
+}
+.navbar-header{
+    max-width: 1100px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:1400px){
+   .navbar-header{
+    max-width: 1270px;
+   }
+}
+.navbar-text .btn-text-green{
+    border: 1px solid rgb(166,195,7);
+    color: rgb(166,195,7);
+    background-color:#fff;
+    border-radius:20px;
+    font-weight:500;
+}
+.navbar-text .btn-green{
+    border:1px solid #A6C307;
+    color:#fff;
+    background-color:#A6C307;
+    border-radius:20px;
+}
+.header-image img{
+    width:70%;
+    height:50%;
+}
+.btn.btn-lg{
+    border-radius:20px;
+}
+@media (max-width:344px){
+    .navbar-text .order-mobile{
+        margin-top:15px;
+    }
+}
+.uploads-container{
+	border-radius: 40px;
+    border:1px solid #5C8DC726;
+    box-shadow: 0px 1px 6px #00000012;
+}
+.uploads-icon{
+	position: relative;
+	overflow: hidden;
+	color:#A6C307;
+	float:right;
+	bottom: -1px;
+}
+.top-search{
+	display: inline-flex;
+}
+.order-srch{
+	background-color: #fff;
+	margin: 2px;
+	padding: 15px 0px 5px 0px;
+}
+.top-search i{
+	line-height: 38px;
+	background: #f1f1f1;
+	color: #80808094;
+	padding-left: 15px;
+	display: table;
+    height:20px;
+}
+.com-btn{
+  max-width: 95px;
+    width: 100%;
+    padding: 0.15rem 0.45rem;
+    border-radius: 0.65rem;
+}
+.search-input:focus-visible{border:none;}
+.btn-pink{background: #FC94AF;}
+.table-status-clr{color: #00000094;}
+.retail-merchant .btn-outline-success {
+    color: #438F29;
+    border-color: #438F29;
+}
+.retail-merchant .btn-outline-success:hover{
+    background: #438F29;
+    border-color: #438F29;
+    color:#fff;
+}
+.retail-merchant .btn-outline-primary {
+    color: #3F3F3F;
+    border-color: #3F3F3F;
+}
+.retail-merchant .btn-outline-primary:hover{
+    background: #3F3F3F;
+    border-color: #3F3F3F;
+    color:#fff;
+}
+.card-header{
+    background:#3F3F3F;
+}
+@media (min-width:992px){
+.retail-merchant .Invoice-right{
+    float:right;
+}
+}
+.text-col{
+    color: #3F3F3F;
+    opacity: 0.6;
+}
